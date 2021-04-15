@@ -13,7 +13,9 @@
   font-size: 30px;
   text-align: center;
   width: 30%;
+  flex-grow: 4;
 }
+
 
 h1 {
   font-family: sans-serif;
