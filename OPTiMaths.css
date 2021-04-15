@@ -3,6 +3,7 @@
   grid-template-columns: auto auto auto;
   background-color: #2196F3;
   padding: 10px;
+  grid-column-gap: 50px;
 }
 
 .col-sm {
@@ -11,4 +12,5 @@
   padding: 20px;
   font-size: 30px;
   text-align: center;
+  width: 30%;
 }
