@@ -50,6 +50,10 @@ a {
   font-family: open-sans;
 }
 
+li {
+  font-family: open-sans;
+  font-size: 25px;
+}
 button {
   border-radius: 8px;
   border: 1px solid;
