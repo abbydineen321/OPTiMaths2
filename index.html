@@ -25,8 +25,19 @@
     </h4>
     
     <br/>
-    <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" 
-            data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+    
+    <div class="container">
+  <h3>Popover Example</h3>
+  <ul class="list-inline">
+    <li><a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content">Top</a></li>
+      </ul>
+    </div>
+    
+    <script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
     
     
     <div class="container">
