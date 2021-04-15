@@ -48,3 +48,10 @@ a {
   color: white;
   font-family: sans-serif;
 }
+
+button {
+  border-radius: 8px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
